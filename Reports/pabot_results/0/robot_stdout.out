@@ -1,0 +1,82 @@
+
+00:13:58 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+00:13:59 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Test Opinion                                                                  
+==============================================================================
+Verify Opinion Articles Workflow                                      
+00:13:59 [browserstack_sdk.__init__][INFO] - Completed setup!
+Titles: ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’']
+Contents: ['Los afectados por coronavirus persistente merecen la atención de una sanidad que dio lo mejor de sí misma durante la pandemia', 'El régimen de Daniel Ortega reforma la Constitución para eliminar la separación de poderes', 'Las ayudas a los afectados deben tener la potencia, agilidad y duración suficientes para compensar los ingresos perdidos. Y el PIB no puede ser la única medida', 'La posibilidad de que la propuesta del PSOE para reformar la Ley Fundamental salga adelante es remota en el actual clima político', 'Este proyecto explora el significado de ser joven en La Línea de la Concepción, localidad marcada por el estigma del desempleo y el tráfico de drogas']
+Image URLs: ['https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&width=414', 'https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&width=414&height=233&focal=2815%2C1060', 'https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&width=414', 'https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&width=414&height=414&smart=true']
+Starting Image Download Process...
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&width=414
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image1.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&width=414&height=233&smart=true
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image2.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&width=414&height=233&focal=2815%2C1060
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image3.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&width=414
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image4.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&width=414&height=414&smart=true
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image5.jpg
+Titles to Translate: ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’']
+Translating Title: Cinco años con covid
+Translated Title: Five years with covid
+Translating Title: Nicaragua, dictadura por ley
+Translated Title: Nicaragua, dictatorship by law
+Translating Title: El impacto económico real que tendrá la dana
+Translated Title: The real economic impact of the dana
+Translating Title: Blindaje constitucional de derechos: deseo y realidad
+Translated Title: Constitutional protection of rights: desire and reality
+Translating Title: ‘Bonanza (La Línea de la Concepción)’
+Translated Title: Bonanza (La Línea de la Concepción)'.
+Translated Titles: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
+Translated Titles: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
+Titles Received for Analysis: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
+All Words Extracted: ['five', 'years', 'with', 'covid', 'nicaragua', 'dictatorship', 'by', 'law', 'the', 'real', 'economic', 'impact', 'of', 'the', 'dana', 'constitutional', 'protection', 'of', 'rights:', 'desire', 'and', 'reality', 'bonanza', '(la', 'línea', 'de', 'la', "concepción)'"]
+Word: five, Count: 1
+Word: years, Count: 1
+Word: with, Count: 1
+Word: covid, Count: 1
+Word: nicaragua, Count: 1
+Word: dictatorship, Count: 1
+Word: by, Count: 1
+Word: law, Count: 1
+Word: the, Count: 2
+Word: real, Count: 1
+Word: economic, Count: 1
+Word: impact, Count: 1
+Word: of, Count: 2
+Word: the, Count: 2
+Word: dana, Count: 1
+Word: constitutional, Count: 1
+Word: protection, Count: 1
+Word: of, Count: 2
+Word: rights:, Count: 1
+Word: desire, Count: 1
+Word: and, Count: 1
+Word: reality, Count: 1
+Word: bonanza, Count: 1
+Word: (la, Count: 1
+Word: línea, Count: 1
+Word: de, Count: 1
+Word: la, Count: 1
+Word: concepción)', Count: 1
+Repeated Words: {'the': 2, 'of': 2}
+Repeated Words: {'the': 2, 'of': 2}
+| PASS |
+------------------------------------------------------------------------------
+Test Opinion                                                          | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/reports/pabot_results/0/output.xml
+
+00:15:11 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 54944 defined in env skipping Browser process start
+
+00:15:16 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 54944 defined in env skipping Browser process start
+
+00:15:22 [browserstack_sdk.__init__][INFO] - Handling session close
+
+00:15:22 [browserstack_sdk.__init__][INFO] - All done!

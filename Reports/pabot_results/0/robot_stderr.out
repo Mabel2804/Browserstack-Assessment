@@ -1,0 +1,2 @@
+[ ERROR ] Calling method '_end_test' of listener 'Browser' failed: UnboundLocalError: cannot access local variable 'bstack1l1l11ll11_opy_' where it is not associated with a value
+[ ERROR ] Calling method '_end_suite' of listener 'Browser' failed: Could not connect to the playwright process at port 54944.

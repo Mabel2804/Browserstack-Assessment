@@ -1,0 +1,26 @@
+userName: mabelpeter_e7TfgE
+accessKey: XLgrAFktwfVwpiUojEAC
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Sequoia
+    browserName: Chrome
+    browserVersion: 130.0
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 130.0
+parallelsPerPlatform: 2
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStackProject
+testObservability: true
+networkLogs: true
+consoleLogs: info
+framework: robot
+bstack:options:
+  local: true

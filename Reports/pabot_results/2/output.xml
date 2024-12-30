@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.1 on darwin)" generated="2024-12-31T00:13:59.823941" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Opinion" source="/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/tests/test_opinion.robot">
+<test id="s1-t1" name="Verify Opinion Articles Workflow" line="12">
+<kw name="Open Browser And Navigate" owner="keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:13:59.892645" level="INFO">Opening browser 'chrome' to base url 'https://elpais.com/'.</msg>
+<msg time="2024-12-31T00:13:59.975013" level="INFO">Completed setup!</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-31T00:13:59.892361" elapsed="17.445834"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-12-31T00:14:17.349038" elapsed="0.292051"/>
+</kw>
+<kw name="Handle Popup If Exists" owner="keywords">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${POPUP_CLOSE}</arg>
+<arg>5 seconds</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-12-31T00:14:17.645729" elapsed="0.263409"/>
+</kw>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${POPUP_CLOSE}</arg>
+<arg>5 seconds</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2024-12-31T00:14:17.644672" elapsed="0.266324"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:14:17.915493" level="INFO">Clicking element 'xpath=//*[@id="didomi-notice-agree-button"]'.</msg>
+<arg>${POPUP_CLOSE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:14:17.914192" elapsed="0.475359"/>
+</kw>
+<arg>Click Element</arg>
+<arg>${POPUP_CLOSE}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2024-12-31T00:14:17.912819" elapsed="0.479292"/>
+</kw>
+<status status="PASS" start="2024-12-31T00:14:17.643253" elapsed="0.750922"/>
+</kw>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2024-12-31T00:13:59.891788" elapsed="18.504862"/>
+</kw>
+<kw name="Validate Website Language" owner="keywords">
+<kw name="Handle Popup If Exists" owner="keywords">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:14:35.064304" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-31T00:14:35.065918" level="FAIL">Element 'xpath=//*[@id="didomi-notice-agree-button"]' not visible after 5 seconds.</msg>
+<arg>${POPUP_CLOSE}</arg>
+<arg>5 seconds</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-12-31T00:14:18.403252" elapsed="16.668398">Element 'xpath=//*[@id="didomi-notice-agree-button"]' not visible after 5 seconds.</status>
+</kw>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${POPUP_CLOSE}</arg>
+<arg>5 seconds</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2024-12-31T00:14:18.401787" elapsed="16.672696"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:14:35.078901" level="INFO">Clicking element 'xpath=//*[@id="didomi-notice-agree-button"]'.</msg>
+<msg time="2024-12-31T00:14:44.589147" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-31T00:14:44.590641" level="FAIL">Element with locator 'xpath=//*[@id="didomi-notice-agree-button"]' not found.</msg>
+<arg>${POPUP_CLOSE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-12-31T00:14:35.077735" elapsed="9.520379">Element with locator 'xpath=//*[@id="didomi-notice-agree-button"]' not found.</status>
+</kw>
+<arg>Click Element</arg>
+<arg>${POPUP_CLOSE}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2024-12-31T00:14:35.076409" elapsed="9.525636"/>
+</kw>
+<status status="PASS" start="2024-12-31T00:14:18.400465" elapsed="26.203816"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>xpath://html</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2024-12-31T00:14:44.605625" elapsed="0.099960"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:14:44.829180" level="INFO">${language} = es-ES</msg>
+<var>${language}</var>
+<arg>xpath://html</arg>
+<arg>lang</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:14:44.709730" elapsed="0.120587"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-12-31T00:14:44.833291" level="INFO">The detected language is: es-ES</msg>
+<arg>The detected language is: ${language}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-12-31T00:14:44.832268" elapsed="0.002907"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${language}</arg>
+<arg>es-ES</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2024-12-31T00:14:44.837492" elapsed="0.001275"/>
+</kw>
+<status status="PASS" start="2024-12-31T00:14:18.398357" elapsed="26.442700"/>
+</kw>
+<kw name="Click Opinion Section" owner="keywords">
+<kw name="Handle Popup If Exists" owner="keywords">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:14:53.558872" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-31T00:14:53.559673" level="FAIL">Element 'xpath=//*[@id="didomi-notice-agree-button"]' not visible after 5 seconds.</msg>
+<arg>${POPUP_CLOSE}</arg>
+<arg>5 seconds</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2024-12-31T00:14:44.846996" elapsed="8.716505">Element 'xpath=//*[@id="didomi-notice-agree-button"]' not visible after 5 seconds.</status>
+</kw>
+<arg>Wait Until Element Is Visible</arg>
+<arg>${POPUP_CLOSE}</arg>
+<arg>5 seconds</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2024-12-31T00:14:44.845929" elapsed="8.722100"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:14:53.575820" level="INFO">Clicking element 'xpath=//*[@id="didomi-notice-agree-button"]'.</msg>
+<msg time="2024-12-31T00:14:57.258533" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-12-31T00:14:57.258971" level="FAIL">Element with locator 'xpath=//*[@id="didomi-notice-agree-button"]' not found.</msg>
+<arg>${POPUP_CLOSE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2024-12-31T00:14:53.574130" elapsed="3.686757">Element with locator 'xpath=//*[@id="didomi-notice-agree-button"]' not found.</status>
+</kw>
+<arg>Click Element</arg>
+<arg>${POPUP_CLOSE}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2024-12-31T00:14:53.572105" elapsed="3.689653"/>
+</kw>
+<status status="PASS" start="2024-12-31T00:14:44.844815" elapsed="12.417753"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:14:57.264080" level="INFO">Clicking element 'css:a[href*='opinion']'.</msg>
+<arg>${opinion_link}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:14:57.263381" elapsed="6.374146"/>
+</kw>
+<arg>${OPINION_LINK}</arg>
+<status status="PASS" start="2024-12-31T00:14:44.842546" elapsed="18.797179"/>
+</kw>
+<kw name="Fetch Article Details" owner="keywords">
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:03.731071" level="INFO">${titles_elements} = [&lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.187")&gt;, &lt;seleniu...</msg>
+<var>${titles_elements}</var>
+<arg>${ARTICLE_TITLE}</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:03.642746" elapsed="0.089470"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:03.803231" level="INFO">${contents_elements} = [&lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.156")&gt;, &lt;seleniu...</msg>
+<var>${contents_elements}</var>
+<arg>${ARTICLE_CONTENT}</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:03.734278" elapsed="0.070654"/>
+</kw>
+<kw name="Get WebElements" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.115050" level="INFO">${images_elements} = [&lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.140")&gt;, &lt;seleniu...</msg>
+<var>${images_elements}</var>
+<arg>${COVER_IMAGE}</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:03.808286" elapsed="0.307087"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-12-31T00:15:04.117563" level="INFO">Titles Elements: [&lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.187")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.188")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.189")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.190")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.191")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.192")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.193")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.194")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.195")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.196")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.197")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.198")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.199")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.200")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.201")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.202")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.203")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.204")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.205")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.206")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.207")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.208")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.209")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.210")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.211")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.212")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement (session="bb00466d22a68476ddb4ee187757b9b589aa83b1", element="f.26F85078AAAD39A0050C3B70B8A39BC1.d.64F9872A1E4DEDBA6571DE6029595901.e.213")&gt;]</msg>
+<arg>Titles Elements: ${titles_elements}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.116304" elapsed="0.001799"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2024-12-31T00:15:04.120911" level="INFO">${titles} = []</msg>
+<var>${titles}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.120646" elapsed="0.000548"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2024-12-31T00:15:04.121889" level="INFO">${contents} = []</msg>
+<var>${contents}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.121673" elapsed="0.000564"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2024-12-31T00:15:04.122963" level="INFO">${image_urls} = []</msg>
+<var>${image_urls}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.122739" elapsed="0.000492"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.185894" level="INFO">${title} = Cinco años con covid</msg>
+<var>${title}</var>
+<arg>${titles_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.124270" elapsed="0.062024"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.236694" level="INFO">${content} = Los afectados por coronavirus persistente merecen la atención de una sanidad que dio lo mejor de sí misma durante la pandemia</msg>
+<var>${content}</var>
+<arg>${contents_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.187004" elapsed="0.050249"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.291378" level="INFO">${image_src} = https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&amp;width=414</msg>
+<var>${image_src}</var>
+<arg>${images_elements[${index}]}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.238186" elapsed="0.053736"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${titles}</arg>
+<arg>${title}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.292892" elapsed="0.000522"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${contents}</arg>
+<arg>${content}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.294199" elapsed="0.000414"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${image_urls}</arg>
+<arg>${image_src}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.295873" elapsed="0.000460"/>
+</kw>
+<var name="${index}">0</var>
+<status status="PASS" start="2024-12-31T00:15:04.124024" elapsed="0.173152"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.354928" level="INFO">${title} = Nicaragua, dictadura por ley</msg>
+<var>${title}</var>
+<arg>${titles_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.298455" elapsed="0.057977"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.418638" level="INFO">${content} = El régimen de Daniel Ortega reforma la Constitución para eliminar la separación de poderes</msg>
+<var>${content}</var>
+<arg>${contents_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.367469" elapsed="0.053388"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.477440" level="INFO">${image_src} = https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&amp;width=414&amp;height=233&amp;smart=true</msg>
+<var>${image_src}</var>
+<arg>${images_elements[${index}]}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.424045" elapsed="0.055312"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${titles}</arg>
+<arg>${title}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.481723" elapsed="0.001442"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${contents}</arg>
+<arg>${content}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.486239" elapsed="0.001317"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${image_urls}</arg>
+<arg>${image_src}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.489601" elapsed="0.001023"/>
+</kw>
+<var name="${index}">1</var>
+<status status="PASS" start="2024-12-31T00:15:04.298066" elapsed="0.194251"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.560593" level="INFO">${title} = El impacto económico real que tendrá la dana</msg>
+<var>${title}</var>
+<arg>${titles_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.494603" elapsed="0.066328"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.635838" level="INFO">${content} = Las ayudas a los afectados deben tener la potencia, agilidad y duración suficientes para compensar los ingresos perdidos. Y el PIB no puede ser la única medida</msg>
+<var>${content}</var>
+<arg>${contents_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.561556" elapsed="0.074582"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.721300" level="INFO">${image_src} = https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&amp;width=414&amp;height=233&amp;focal=2815%2C1060</msg>
+<var>${image_src}</var>
+<arg>${images_elements[${index}]}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.636665" elapsed="0.085037"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${titles}</arg>
+<arg>${title}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.722494" elapsed="0.000440"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${contents}</arg>
+<arg>${content}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.723596" elapsed="0.000327"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${image_urls}</arg>
+<arg>${image_src}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.724569" elapsed="0.000320"/>
+</kw>
+<var name="${index}">2</var>
+<status status="PASS" start="2024-12-31T00:15:04.494227" elapsed="0.231238"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.789864" level="INFO">${title} = Blindaje constitucional de derechos: deseo y realidad</msg>
+<var>${title}</var>
+<arg>${titles_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.726355" elapsed="0.064096"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.858548" level="INFO">${content} = La posibilidad de que la propuesta del PSOE para reformar la Ley Fundamental salga adelante es remota en el actual clima político</msg>
+<var>${content}</var>
+<arg>${contents_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.791562" elapsed="0.077024"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:04.937912" level="INFO">${image_src} = https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&amp;width=414</msg>
+<var>${image_src}</var>
+<arg>${images_elements[${index}]}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.870589" elapsed="0.068890"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${titles}</arg>
+<arg>${title}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.942784" elapsed="0.001720"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${contents}</arg>
+<arg>${content}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.946970" elapsed="0.001172"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${image_urls}</arg>
+<arg>${image_src}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.949923" elapsed="0.000983"/>
+</kw>
+<var name="${index}">3</var>
+<status status="PASS" start="2024-12-31T00:15:04.726080" elapsed="0.226535"/>
+</iter>
+<iter>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:05.035423" level="INFO">${title} = ‘Bonanza (La Línea de la Concepción)’</msg>
+<var>${title}</var>
+<arg>${titles_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:04.956159" elapsed="0.080949"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:05.095237" level="INFO">${content} = Este proyecto explora el significado de ser joven en La Línea de la Concepción, localidad marcada por el estigma del desempleo y el tráfico de drogas</msg>
+<var>${content}</var>
+<arg>${contents_elements[${index}]}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.040125" elapsed="0.056428"/>
+</kw>
+<kw name="Get Element Attribute" owner="SeleniumLibrary">
+<msg time="2024-12-31T00:15:05.150473" level="INFO">${image_src} = https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&amp;width=414&amp;height=414&amp;smart=true</msg>
+<var>${image_src}</var>
+<arg>${images_elements[${index}]}</arg>
+<arg>src</arg>
+<doc>Returns the value of ``attribute`` from the element ``locator``.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.098830" elapsed="0.052888"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${titles}</arg>
+<arg>${title}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.154115" elapsed="0.001306"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${contents}</arg>
+<arg>${content}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.157350" elapsed="0.000992"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${image_urls}</arg>
+<arg>${image_src}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.160594" elapsed="0.001872"/>
+</kw>
+<var name="${index}">4</var>
+<status status="PASS" start="2024-12-31T00:15:04.955119" elapsed="0.209361"/>
+</iter>
+<var>${index}</var>
+<value>0</value>
+<value>5</value>
+<status status="PASS" start="2024-12-31T00:15:04.123713" elapsed="1.042563"/>
+</for>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.169667" level="INFO">Titles: ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’']</msg>
+<arg>Titles: ${titles}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.168446" elapsed="0.002426"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.173978" level="INFO">Contents: ['Los afectados por coronavirus persistente merecen la atención de una sanidad que dio lo mejor de sí misma durante la pandemia', 'El régimen de Daniel Ortega reforma la Constitución para eliminar la separación de poderes', 'Las ayudas a los afectados deben tener la potencia, agilidad y duración suficientes para compensar los ingresos perdidos. Y el PIB no puede ser la única medida', 'La posibilidad de que la propuesta del PSOE para reformar la Ley Fundamental salga adelante es remota en el actual clima político', 'Este proyecto explora el significado de ser joven en La Línea de la Concepción, localidad marcada por el estigma del desempleo y el tráfico de drogas']</msg>
+<arg>Contents: ${contents}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.172956" elapsed="0.002215"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.177847" level="INFO">Image URLs: ['https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&amp;width=414', 'https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&amp;width=414&amp;height=233&amp;smart=true', 'https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&amp;width=414&amp;height=233&amp;focal=2815%2C1060', 'https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&amp;width=414', 'https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&amp;width=414&amp;height=414&amp;smart=true']</msg>
+<arg>Image URLs: ${image_urls}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.177248" elapsed="0.001125"/>
+</kw>
+<return>
+<value>${titles}</value>
+<value>${contents}</value>
+<value>${image_urls}</value>
+<status status="PASS" start="2024-12-31T00:15:05.179173" elapsed="0.000325"/>
+</return>
+<msg time="2024-12-31T00:15:05.180390" level="INFO">${titles} = ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’...</msg>
+<msg time="2024-12-31T00:15:05.180874" level="INFO">${contents} = ['Los afectados por coronavirus persistente merecen la atención de una sanidad que dio lo mejor de sí misma durante la pandemia', 'El régimen de Daniel Ortega reforma la Constitución para eliminar la ...</msg>
+<msg time="2024-12-31T00:15:05.181451" level="INFO">${image_urls} = ['https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&amp;width=414', 'https://imagenes.elpais.com/resizer/v2/6VMNK7...</msg>
+<var>${titles}</var>
+<var>${contents}</var>
+<var>${image_urls}</var>
+<doc>Fetches the first five articles from the Opinion section</doc>
+<status status="PASS" start="2024-12-31T00:15:03.641260" elapsed="1.540654"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Titles: ${titles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.182444" elapsed="0.000629"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Contents: ${contents}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.183496" elapsed="0.000500"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Image URLs: ${image_urls}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.184456" elapsed="0.000555"/>
+</kw>
+<kw name="Download Images" owner="keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Starting Image Download Process...</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.186174" elapsed="0.000425"/>
+</kw>
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2024-12-31T00:15:05.188120" level="INFO" html="true">Directory '&lt;a href="file:///Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads"&gt;/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads&lt;/a&gt;' already exists.</msg>
+<arg>${DOWNLOADS_DIR}</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.187435" elapsed="0.000885"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.190320" level="INFO">${index} = 1</msg>
+<var>${index}</var>
+<arg>1</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.189641" elapsed="0.001440"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Processing Image URL: ${url}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.192781" elapsed="0.000398"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.194337" level="INFO">${filename} = Image1.jpg</msg>
+<var>${filename}</var>
+<arg>Image${index}.jpg</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.193956" elapsed="0.000825"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.196271" level="INFO">${filepath} = /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image1.jpg</msg>
+<var>${filepath}</var>
+<arg>os.path.join('${DOWNLOADS_DIR}', '${filename}')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.195611" elapsed="0.001255"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Download File" owner="CustomLibrary">
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Download a file from the specified URL to the given filepath.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.198165" elapsed="0.074163"/>
+</kw>
+<arg>'${url}' != ''</arg>
+<arg>CustomLibrary.Download File</arg>
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.197702" elapsed="0.076539"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Downloaded Image to: ${filepath}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.275888" elapsed="0.001214"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.280334" level="INFO">${index} = 2</msg>
+<var>${index}</var>
+<arg>${index} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.279299" elapsed="0.001969"/>
+</kw>
+<var name="${url}">https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&amp;width=414</var>
+<status status="PASS" start="2024-12-31T00:15:05.192466" elapsed="0.090175"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Processing Image URL: ${url}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.283881" elapsed="0.000484"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.285579" level="INFO">${filename} = Image2.jpg</msg>
+<var>${filename}</var>
+<arg>Image${index}.jpg</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.285170" elapsed="0.000843"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.297734" level="INFO">${filepath} = /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image2.jpg</msg>
+<var>${filepath}</var>
+<arg>os.path.join('${DOWNLOADS_DIR}', '${filename}')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.287913" elapsed="0.010209"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Download File" owner="CustomLibrary">
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Download a file from the specified URL to the given filepath.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.299352" elapsed="0.053146"/>
+</kw>
+<arg>'${url}' != ''</arg>
+<arg>CustomLibrary.Download File</arg>
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.298902" elapsed="0.055348"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Downloaded Image to: ${filepath}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.355829" elapsed="0.000993"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.359839" level="INFO">${index} = 3</msg>
+<var>${index}</var>
+<arg>${index} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.358294" elapsed="0.002573"/>
+</kw>
+<var name="${url}">https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&amp;width=414&amp;height=233&amp;smart=true</var>
+<status status="PASS" start="2024-12-31T00:15:05.283509" elapsed="0.081021"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Processing Image URL: ${url}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.365896" elapsed="0.000519"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.367651" level="INFO">${filename} = Image3.jpg</msg>
+<var>${filename}</var>
+<arg>Image${index}.jpg</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.367228" elapsed="0.000874"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.369362" level="INFO">${filepath} = /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image3.jpg</msg>
+<var>${filepath}</var>
+<arg>os.path.join('${DOWNLOADS_DIR}', '${filename}')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.368901" elapsed="0.000902"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Download File" owner="CustomLibrary">
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Download a file from the specified URL to the given filepath.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.371043" elapsed="0.057789"/>
+</kw>
+<arg>'${url}' != ''</arg>
+<arg>CustomLibrary.Download File</arg>
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.370600" elapsed="0.060240"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Downloaded Image to: ${filepath}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.432613" elapsed="0.001162"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.436787" level="INFO">${index} = 4</msg>
+<var>${index}</var>
+<arg>${index} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.435530" elapsed="0.002344"/>
+</kw>
+<var name="${url}">https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&amp;width=414&amp;height=233&amp;focal=2815%2C1060</var>
+<status status="PASS" start="2024-12-31T00:15:05.365451" elapsed="0.074038"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Processing Image URL: ${url}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.440789" elapsed="0.000491"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.442502" level="INFO">${filename} = Image4.jpg</msg>
+<var>${filename}</var>
+<arg>Image${index}.jpg</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.442087" elapsed="0.000925"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.444819" level="INFO">${filepath} = /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image4.jpg</msg>
+<var>${filepath}</var>
+<arg>os.path.join('${DOWNLOADS_DIR}', '${filename}')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.444067" elapsed="0.001488"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Download File" owner="CustomLibrary">
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Download a file from the specified URL to the given filepath.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.447670" elapsed="0.044556"/>
+</kw>
+<arg>'${url}' != ''</arg>
+<arg>CustomLibrary.Download File</arg>
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.446889" elapsed="0.048357"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Downloaded Image to: ${filepath}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.497625" elapsed="0.001415"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.502022" level="INFO">${index} = 5</msg>
+<var>${index}</var>
+<arg>${index} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.500853" elapsed="0.002262"/>
+</kw>
+<var name="${url}">https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&amp;width=414</var>
+<status status="PASS" start="2024-12-31T00:15:05.440399" elapsed="0.064338"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Processing Image URL: ${url}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.506764" elapsed="0.000466"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.508437" level="INFO">${filename} = Image5.jpg</msg>
+<var>${filename}</var>
+<arg>Image${index}.jpg</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.508041" elapsed="0.000860"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.510225" level="INFO">${filepath} = /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image5.jpg</msg>
+<var>${filepath}</var>
+<arg>os.path.join('${DOWNLOADS_DIR}', '${filename}')</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.509767" elapsed="0.000926"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Download File" owner="CustomLibrary">
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Download a file from the specified URL to the given filepath.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.512324" elapsed="0.061338"/>
+</kw>
+<arg>'${url}' != ''</arg>
+<arg>CustomLibrary.Download File</arg>
+<arg>${url}</arg>
+<arg>${filepath}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.511881" elapsed="0.064198"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Downloaded Image to: ${filepath}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.578004" elapsed="0.001363"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.582774" level="INFO">${index} = 6</msg>
+<var>${index}</var>
+<arg>${index} + 1</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.581733" elapsed="0.002163"/>
+</kw>
+<var name="${url}">https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&amp;width=414&amp;height=414&amp;smart=true</var>
+<status status="PASS" start="2024-12-31T00:15:05.506377" elapsed="0.079361"/>
+</iter>
+<var>${url}</var>
+<value>@{image_urls}</value>
+<status status="PASS" start="2024-12-31T00:15:05.192071" elapsed="0.395098"/>
+</for>
+<arg>@{image_urls}</arg>
+<status status="PASS" start="2024-12-31T00:15:05.185574" elapsed="0.403025"/>
+</kw>
+<kw name="Translate Article Titles" owner="keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Titles to Translate: ${titles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.591248" elapsed="0.000877"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2024-12-31T00:15:05.593449" level="INFO">${translated_titles} = []</msg>
+<var>${translated_titles}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.593041" elapsed="0.000862"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translating Title: ${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.595363" elapsed="0.000430"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:06.296960" level="INFO">${translation} = Five years with covid</msg>
+<var>${translation}</var>
+<arg>CustomLibrary.CustomLibrary().translate_text("${title}", "${TARGET_LANGUAGE}", "https://api-free.deepl.com/v2/translate", "${DEEPL_API_KEY}")</arg>
+<arg>modules=CustomLibrary</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:05.596625" elapsed="0.701345"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translated Title: ${translation}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:06.299774" elapsed="0.001222"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${translated_titles}</arg>
+<arg>${translation}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:06.302780" elapsed="0.001729"/>
+</kw>
+<var name="${title}">Cinco años con covid</var>
+<status status="PASS" start="2024-12-31T00:15:05.595029" elapsed="0.711562"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translating Title: ${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:06.309663" elapsed="0.000914"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:07.031794" level="INFO">${translation} = Nicaragua, dictatorship by law</msg>
+<var>${translation}</var>
+<arg>CustomLibrary.CustomLibrary().translate_text("${title}", "${TARGET_LANGUAGE}", "https://api-free.deepl.com/v2/translate", "${DEEPL_API_KEY}")</arg>
+<arg>modules=CustomLibrary</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:06.312103" elapsed="0.721321"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translated Title: ${translation}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.036227" elapsed="0.002142"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${translated_titles}</arg>
+<arg>${translation}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.040832" elapsed="0.001301"/>
+</kw>
+<var name="${title}">Nicaragua, dictadura por ley</var>
+<status status="PASS" start="2024-12-31T00:15:06.308618" elapsed="0.735934"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translating Title: ${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.048026" elapsed="0.001295"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:07.814223" level="INFO">${translation} = The real economic impact of the dana</msg>
+<var>${translation}</var>
+<arg>CustomLibrary.CustomLibrary().translate_text("${title}", "${TARGET_LANGUAGE}", "https://api-free.deepl.com/v2/translate", "${DEEPL_API_KEY}")</arg>
+<arg>modules=CustomLibrary</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.051414" elapsed="0.764120"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translated Title: ${translation}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.817307" elapsed="0.001162"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${translated_titles}</arg>
+<arg>${translation}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.820332" elapsed="0.000876"/>
+</kw>
+<var name="${title}">El impacto económico real que tendrá la dana</var>
+<status status="PASS" start="2024-12-31T00:15:07.046888" elapsed="0.775659"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translating Title: ${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.824980" elapsed="0.001324"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:08.520539" level="INFO">${translation} = Constitutional protection of rights: desire and reality</msg>
+<var>${translation}</var>
+<arg>CustomLibrary.CustomLibrary().translate_text("${title}", "${TARGET_LANGUAGE}", "https://api-free.deepl.com/v2/translate", "${DEEPL_API_KEY}")</arg>
+<arg>modules=CustomLibrary</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:07.829108" elapsed="0.693757"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translated Title: ${translation}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:08.526834" elapsed="0.003708"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${translated_titles}</arg>
+<arg>${translation}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:08.533412" elapsed="0.001142"/>
+</kw>
+<var name="${title}">Blindaje constitucional de derechos: deseo y realidad</var>
+<status status="PASS" start="2024-12-31T00:15:07.824195" elapsed="0.712042"/>
+</iter>
+<iter>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translating Title: ${title}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:08.539253" elapsed="0.001100"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:09.217550" level="INFO">${translation} = Bonanza (La Línea de la Concepción)'.</msg>
+<var>${translation}</var>
+<arg>CustomLibrary.CustomLibrary().translate_text("${title}", "${TARGET_LANGUAGE}", "https://api-free.deepl.com/v2/translate", "${DEEPL_API_KEY}")</arg>
+<arg>modules=CustomLibrary</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:08.542478" elapsed="0.676234"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translated Title: ${translation}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.221540" elapsed="0.001494"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${translated_titles}</arg>
+<arg>${translation}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.224980" elapsed="0.001362"/>
+</kw>
+<var name="${title}">‘Bonanza (La Línea de la Concepción)’</var>
+<status status="PASS" start="2024-12-31T00:15:08.538344" elapsed="0.690688"/>
+</iter>
+<var>${title}</var>
+<value>@{titles}</value>
+<status status="PASS" start="2024-12-31T00:15:05.594637" elapsed="3.635851"/>
+</for>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translated Titles: ${translated_titles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.232197" elapsed="0.001297"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-12-31T00:15:09.236488" level="INFO">Translated Titles: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]</msg>
+<arg>Translated Titles: ${translated_titles}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.235353" elapsed="0.002521"/>
+</kw>
+<return>
+<value>${translated_titles}</value>
+<status status="PASS" start="2024-12-31T00:15:09.239579" elapsed="0.000853"/>
+</return>
+<msg time="2024-12-31T00:15:09.242551" level="INFO">${translated_titles} = ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]</msg>
+<var>${translated_titles}</var>
+<arg>@{titles}</arg>
+<status status="PASS" start="2024-12-31T00:15:05.589758" elapsed="3.653385"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Translated Titles: ${translated_titles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.244042" elapsed="0.000694"/>
+</kw>
+<kw name="Analyze Translations" owner="keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Titles Received for Analysis: ${titles}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.246469" elapsed="0.000827"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2024-12-31T00:15:09.248983" level="INFO">${all_words} = ['five', 'years', 'with', 'covid', 'nicaragua', 'dictatorship', 'by', 'law', 'the', 'real', 'economic', 'impact', 'of', 'the', 'dana', 'constitutional', 'protection', 'of', 'rights:', 'desire', 'and',...</msg>
+<var>${all_words}</var>
+<arg>[word.lower().strip(",.") for title in @{titles} for word in title.split()]</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.248308" elapsed="0.001294"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>All Words Extracted: ${all_words}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.250856" elapsed="0.000796"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-12-31T00:15:09.253599" level="INFO">${repeated_words} = {}</msg>
+<var>${repeated_words}</var>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.252826" elapsed="0.001252"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.256021" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.255602" elapsed="0.000776"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.257096" elapsed="0.000396"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.258386" elapsed="0.000480"/>
+</kw>
+<var name="${word}">five</var>
+<status status="PASS" start="2024-12-31T00:15:09.255248" elapsed="0.004370"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.262247" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.261698" elapsed="0.001016"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.263637" elapsed="0.000681"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.265242" elapsed="0.000484"/>
+</kw>
+<var name="${word}">years</var>
+<status status="PASS" start="2024-12-31T00:15:09.261231" elapsed="0.005360"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.268204" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.267752" elapsed="0.000922"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.269522" elapsed="0.000480"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.270837" elapsed="0.000410"/>
+</kw>
+<var name="${word}">with</var>
+<status status="PASS" start="2024-12-31T00:15:09.267400" elapsed="0.005119"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.274317" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.273802" elapsed="0.001070"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.275749" elapsed="0.000500"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.277836" elapsed="0.000529"/>
+</kw>
+<var name="${word}">covid</var>
+<status status="PASS" start="2024-12-31T00:15:09.273381" elapsed="0.005652"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.281625" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.281003" elapsed="0.001067"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.282929" elapsed="0.000483"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.284217" elapsed="0.000399"/>
+</kw>
+<var name="${word}">nicaragua</var>
+<status status="PASS" start="2024-12-31T00:15:09.280139" elapsed="0.005139"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.287063" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.286330" elapsed="0.001353"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.288633" elapsed="0.000556"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.291046" elapsed="0.000445"/>
+</kw>
+<var name="${word}">dictatorship</var>
+<status status="PASS" start="2024-12-31T00:15:09.286007" elapsed="0.006312"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.296352" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.295722" elapsed="0.000996"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.297463" elapsed="0.000445"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.298912" elapsed="0.000456"/>
+</kw>
+<var name="${word}">by</var>
+<status status="PASS" start="2024-12-31T00:15:09.293884" elapsed="0.007082"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.302911" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.302253" elapsed="0.001005"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.303877" elapsed="0.000405"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.304934" elapsed="0.000362"/>
+</kw>
+<var name="${word}">law</var>
+<status status="PASS" start="2024-12-31T00:15:09.301924" elapsed="0.003891"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.307016" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.306664" elapsed="0.000684"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.308069" elapsed="0.000521"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Set To Dictionary" owner="Collections">
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Adds the given ``key_value_pairs`` and/or ``items`` to the ``dictionary``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.311454" elapsed="0.000848"/>
+</kw>
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.310020" elapsed="0.003024"/>
+</kw>
+<var name="${word}">the</var>
+<status status="PASS" start="2024-12-31T00:15:09.306372" elapsed="0.007519"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.315602" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.315269" elapsed="0.000608"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.316498" elapsed="0.000460"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.317446" elapsed="0.000254"/>
+</kw>
+<var name="${word}">real</var>
+<status status="PASS" start="2024-12-31T00:15:09.314926" elapsed="0.003210"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.319069" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.318811" elapsed="0.000514"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.319801" elapsed="0.000290"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.320540" elapsed="0.000240"/>
+</kw>
+<var name="${word}">economic</var>
+<status status="PASS" start="2024-12-31T00:15:09.318602" elapsed="0.002604"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.322144" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.321888" elapsed="0.000526"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.322877" elapsed="0.000276"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.323623" elapsed="0.000230"/>
+</kw>
+<var name="${word}">impact</var>
+<status status="PASS" start="2024-12-31T00:15:09.321681" elapsed="0.002988"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.326380" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.326004" elapsed="0.001245"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.329290" elapsed="0.000747"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Set To Dictionary" owner="Collections">
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Adds the given ``key_value_pairs`` and/or ``items`` to the ``dictionary``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.330967" elapsed="0.000292"/>
+</kw>
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.330595" elapsed="0.001243"/>
+</kw>
+<var name="${word}">of</var>
+<status status="PASS" start="2024-12-31T00:15:09.325565" elapsed="0.006851"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.333452" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.333154" elapsed="0.000580"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.334211" elapsed="0.000356"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Set To Dictionary" owner="Collections">
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Adds the given ``key_value_pairs`` and/or ``items`` to the ``dictionary``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.336199" elapsed="0.000590"/>
+</kw>
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.335341" elapsed="0.002069"/>
+</kw>
+<var name="${word}">the</var>
+<status status="PASS" start="2024-12-31T00:15:09.332926" elapsed="0.004924"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.338857" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.338571" elapsed="0.000573"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.339706" elapsed="0.000529"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.340829" elapsed="0.000371"/>
+</kw>
+<var name="${word}">dana</var>
+<status status="PASS" start="2024-12-31T00:15:09.338332" elapsed="0.003360"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.342785" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.342491" elapsed="0.000595"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.345316" elapsed="0.000675"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.346692" elapsed="0.000651"/>
+</kw>
+<var name="${word}">constitutional</var>
+<status status="PASS" start="2024-12-31T00:15:09.342255" elapsed="0.006635"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.350718" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.350299" elapsed="0.000735"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.352400" elapsed="0.000494"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.353459" elapsed="0.000296"/>
+</kw>
+<var name="${word}">protection</var>
+<status status="PASS" start="2024-12-31T00:15:09.349821" elapsed="0.004575"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.356060" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.355478" elapsed="0.001053"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.357227" elapsed="0.000689"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Set To Dictionary" owner="Collections">
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Adds the given ``key_value_pairs`` and/or ``items`` to the ``dictionary``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.358810" elapsed="0.000260"/>
+</kw>
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.358473" elapsed="0.001058"/>
+</kw>
+<var name="${word}">of</var>
+<status status="PASS" start="2024-12-31T00:15:09.355014" elapsed="0.005178"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.365859" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.365413" elapsed="0.000810"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.366970" elapsed="0.000508"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.368013" elapsed="0.000285"/>
+</kw>
+<var name="${word}">rights:</var>
+<status status="PASS" start="2024-12-31T00:15:09.364313" elapsed="0.004419"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.369800" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.369449" elapsed="0.000626"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.370551" elapsed="0.000287"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.371424" elapsed="0.000298"/>
+</kw>
+<var name="${word}">desire</var>
+<status status="PASS" start="2024-12-31T00:15:09.369203" elapsed="0.002981"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.373242" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.372925" elapsed="0.000610"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.374038" elapsed="0.000326"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.374872" elapsed="0.000283"/>
+</kw>
+<var name="${word}">and</var>
+<status status="PASS" start="2024-12-31T00:15:09.372670" elapsed="0.002939"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.376904" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.376507" elapsed="0.000728"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.377863" elapsed="0.001148"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.386057" elapsed="0.000382"/>
+</kw>
+<var name="${word}">reality</var>
+<status status="PASS" start="2024-12-31T00:15:09.376192" elapsed="0.010721"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.387907" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.387620" elapsed="0.000552"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.388659" elapsed="0.000319"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.389471" elapsed="0.000251"/>
+</kw>
+<var name="${word}">bonanza</var>
+<status status="PASS" start="2024-12-31T00:15:09.387385" elapsed="0.002756"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.391622" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.391136" elapsed="0.000829"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.392949" elapsed="0.001330"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.395753" elapsed="0.000449"/>
+</kw>
+<var name="${word}">(la</var>
+<status status="PASS" start="2024-12-31T00:15:09.390878" elapsed="0.006171"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.399225" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.398859" elapsed="0.000767"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.400822" elapsed="0.000529"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.402021" elapsed="0.000376"/>
+</kw>
+<var name="${word}">línea</var>
+<status status="PASS" start="2024-12-31T00:15:09.398169" elapsed="0.004787"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.404073" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.403751" elapsed="0.000602"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.404879" elapsed="0.000632"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.406249" elapsed="0.000297"/>
+</kw>
+<var name="${word}">de</var>
+<status status="PASS" start="2024-12-31T00:15:09.403464" elapsed="0.003801"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.408378" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.408063" elapsed="0.000618"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.409861" elapsed="0.001226"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.411818" elapsed="0.000368"/>
+</kw>
+<var name="${word}">la</var>
+<status status="PASS" start="2024-12-31T00:15:09.407772" elapsed="0.004935"/>
+</iter>
+<iter>
+<kw name="Count Values In List" owner="Collections">
+<msg time="2024-12-31T00:15:09.413904" level="INFO">${count} = 1</msg>
+<var>${count}</var>
+<arg>${all_words}</arg>
+<arg>${word}</arg>
+<doc>Returns the number of occurrences of the given ``value`` in ``list``.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.413423" elapsed="0.001059"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Word: ${word}, Count: ${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.415354" elapsed="0.001117"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${count} &gt; 1</arg>
+<arg>Set To Dictionary</arg>
+<arg>${repeated_words}</arg>
+<arg>${word}</arg>
+<arg>${count}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.417390" elapsed="0.000539"/>
+</kw>
+<var name="${word}">concepción)'</var>
+<status status="PASS" start="2024-12-31T00:15:09.413194" elapsed="0.005200"/>
+</iter>
+<var>${word}</var>
+<value>@{all_words}</value>
+<status status="PASS" start="2024-12-31T00:15:09.254850" elapsed="0.163974"/>
+</for>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Repeated Words: ${repeated_words}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.419333" elapsed="0.000346"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-12-31T00:15:09.420383" level="INFO">Repeated Words: {'the': 2, 'of': 2}</msg>
+<arg>Repeated Words: ${repeated_words}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.420144" elapsed="0.000511"/>
+</kw>
+<return>
+<value>${repeated_words}</value>
+<status status="PASS" start="2024-12-31T00:15:09.421465" elapsed="0.000214"/>
+</return>
+<msg time="2024-12-31T00:15:09.422176" level="INFO">${repeated_words} = {'the': 2, 'of': 2}</msg>
+<var>${repeated_words}</var>
+<arg>@{translated_titles}</arg>
+<status status="PASS" start="2024-12-31T00:15:09.245512" elapsed="0.176923"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Repeated Words: ${repeated_words}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.422758" elapsed="0.000365"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-12-31T00:15:09.423465" elapsed="0.000316"/>
+</kw>
+<status status="PASS" start="2024-12-31T00:13:59.890831" elapsed="69.533290"/>
+</test>
+<status status="PASS" start="2024-12-31T00:13:59.824959" elapsed="72.634492"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Opinion">Test Opinion</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-12-31T00:15:12.458629" level="ERROR">Calling method '_end_test' of listener 'Browser' failed: UnboundLocalError: cannot access local variable 'bstack1l1l11ll11_opy_' where it is not associated with a value</msg>
+<msg time="2024-12-31T00:15:17.844549" level="ERROR">Calling method '_end_suite' of listener 'Browser' failed: Could not connect to the playwright process at port 55159.</msg>
+</errors>
+</robot>
