@@ -20,11 +20,11 @@ This project is part of BrowserStack Tech Assessment
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Mabel2804/Browserstack-Assessment.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repository
+   cd Browserstack-Assessment
    ```
 3. Install dependencies:
    ```bash
