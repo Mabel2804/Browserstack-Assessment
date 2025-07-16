@@ -26,6 +26,7 @@ Validate Website Language
 
 Handle Popup If Exists
     Run Keyword And Ignore Error    Wait Until Element Is Visible    ${POPUP_CLOSE}    5 seconds
+    Run Keyword And Ignore Error    Wait Until Element Is Enabled    ${POPUP_CLOSE}    5 seconds
     Run Keyword And Ignore Error    Click Element    ${POPUP_CLOSE}
 
 Click Opinion Section
@@ -50,7 +51,6 @@ Fetch Article Details
         Append To List   ${contents}    ${content}
         Append To List   ${image_urls}    ${image_src}
     END
-
     Log    Titles: ${titles}
     Log    Contents: ${contents}
     Log    Image URLs: ${image_urls}
@@ -72,7 +72,7 @@ Download Images
 
 Translate Article Titles
     [Arguments]    @{titles}
-    Log To Console    Titles to Translate: ${titles}
+    Log To Console    Titles to Translate: ${titles} #Debugging Purpose
     ${translated_titles}=    Create List
     FOR    ${title}    IN    @{titles}
         Log To Console    Translating Title: ${title}

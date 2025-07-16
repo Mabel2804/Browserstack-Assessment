@@ -1,0 +1,90 @@
+
+14:35:13 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+
+14:35:13 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Test Opinion                                                                  
+==============================================================================
+Verify Opinion Articles Workflow                                      
+14:35:14 [browserstack_sdk.__init__][INFO] - Completed setup!
+Titles: ['Varapalo supremo al juez Peinado', 'Milei contra la política', 'El debate | La resignificación del Valle de Cuelgamuros', '¿Financiación autonómica justa o financiación singular, bilateral y generalizable? (y II)', '‘Aquel verano raro’']
+Contents: ['El alto tribunal desestima de forma contundente el intento de imputar sin fundamento al ministro de Justicia, Félix Bolaños', 'La rebelión de sus senadores afines y de la vicepresidenta Villarruel es una muestra de la incapacidad del presidente argentino para dialogar', 'El acuerdo sobre uno de los principales monumentos del franquismo ha suscitado críticas tanto desde quienes creen que el Gobierno ha cedido ante la Conferencia Episcopal y el Vaticano como desde quienes consideran que el pacto afecta a un lugar de culto', 'Lo inquietante en el proyecto de nuevo sistema es sustituir los tributos de los ciudadanos al Estado por la “aportación” de la Generalitat y la denominada, confusamente, bilateralidad', 'Este proyecto fotográfico muestra diferentes momentos de la vida cotidiana en Barcelona capturados durante el verano de 2021, mientras estábamos inmersos en la quinta ola de la covid-19. Pese a que el aumento de la población vacunada permitió una reapertura parcial al turismo todavía se apreciaban las medidas requeridas para controlar la pandemia, como el uso de la mascarilla en espacios públicos o el distanciamiento social. Esta serie se enfoca en las huellas que dejó la pandemia, en esos instantes en los que se percibe la soledad en las calles, la calma de los espacios prácticamente vacíos y el anhelo de un ayer que todavía no llegaba']
+Image URLs: ['https://imagenes.elpais.com/resizer/v2/OZAMN2HPWBF73IUQTJEWEZGEQ4.jpg?auth=13deb537ba298e1d4816dfc239032bf9bfb0f33fa5fae30a30e728ba0a048f24&width=414', 'https://imagenes.elpais.com/resizer/v2/6PAQDIH5GVGULCD7ML2WVLDIXE.jpg?auth=e2f082ea841fc25bb521139af480688bd849ef5583bff32d43854099813bf3f0&width=414&height=233&focal=534%2C549', 'https://imagenes.elpais.com/resizer/v2/ZA4F5KFSA5HVHJV5ESWKD3HKCI.jpg?auth=0faa71096801505e0c08b02bdc58e0442aca2d4d12cf44f625f57484c080dbd9&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/QFZCUSM44FAUBPW5EUUZTWFUBU.jpg?auth=0ba8cbbcb67bf0a4c7f95bc628bb171cd1ecfad4e4e36037d105ca4984ca967f&width=414', 'https://imagenes.elpais.com/resizer/v2/5ERWIQZC5BEDZIK3KYW7MMW5JQ.jpg?auth=71a7e96989bcbcf2bed197ab006daed0c3256d409f6bdc9372439534f515c229&width=414&height=414&smart=true']
+Starting Image Download Process...
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/OZAMN2HPWBF73IUQTJEWEZGEQ4.jpg?auth=13deb537ba298e1d4816dfc239032bf9bfb0f33fa5fae30a30e728ba0a048f24&width=414
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image1.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/6PAQDIH5GVGULCD7ML2WVLDIXE.jpg?auth=e2f082ea841fc25bb521139af480688bd849ef5583bff32d43854099813bf3f0&width=414&height=233&focal=534%2C549
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image2.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/ZA4F5KFSA5HVHJV5ESWKD3HKCI.jpg?auth=0faa71096801505e0c08b02bdc58e0442aca2d4d12cf44f625f57484c080dbd9&width=414&height=233&smart=true
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image3.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/QFZCUSM44FAUBPW5EUUZTWFUBU.jpg?auth=0ba8cbbcb67bf0a4c7f95bc628bb171cd1ecfad4e4e36037d105ca4984ca967f&width=414
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image4.jpg
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/5ERWIQZC5BEDZIK3KYW7MMW5JQ.jpg?auth=71a7e96989bcbcf2bed197ab006daed0c3256d409f6bdc9372439534f515c229&width=414&height=414&smart=true
+Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image5.jpg
+Titles to Translate: ['Varapalo supremo al juez Peinado', 'Milei contra la política', 'El debate | La resignificación del Valle de Cuelgamuros', '¿Financiación autonómica justa o financiación singular, bilateral y generalizable? (y II)', '‘Aquel verano raro’'] #Debugging Purpose
+Translating Title: Varapalo supremo al juez Peinado
+Translated Title: Supreme court slap on the wrist for Judge Peinado
+Translating Title: Milei contra la política
+Translated Title: Milei against politics
+Translating Title: El debate | La resignificación del Valle de Cuelgamuros
+Translated Title: The debate : The re-signification of the Valley of Cuelgamuros
+Translating Title: ¿Financiación autonómica justa o financiación singular, bilateral y generalizable? (y II)
+Translated Title: Fair regional financing or singular, bilateral and generalizable financing (and II).
+Translating Title: ‘Aquel verano raro’
+Translated Title: 'That weird summer'.
+Translated Titles: ['Supreme court slap on the wrist for Judge Peinado', 'Milei against politics', 'The debate : The re-signification of the Valley of Cuelgamuros', 'Fair regional financing or singular, bilateral and generalizable financing (and II).', "'That weird summer'."]
+Translated Titles: ['Supreme court slap on the wrist for Judge Peinado', 'Milei against politics', 'The debate : The re-signification of the Valley of Cuelgamuros', 'Fair regional financing or singular, bilateral and generalizable financing (and II).', "'That weird summer'."]
+Titles Received for Analysis: ['Supreme court slap on the wrist for Judge Peinado', 'Milei against politics', 'The debate : The re-signification of the Valley of Cuelgamuros', 'Fair regional financing or singular, bilateral and generalizable financing (and II).', "'That weird summer'."]
+All Words Extracted: ['supreme', 'court', 'slap', 'on', 'the', 'wrist', 'for', 'judge', 'peinado', 'milei', 'against', 'politics', 'the', 'debate', ':', 'the', 're-signification', 'of', 'the', 'valley', 'of', 'cuelgamuros', 'fair', 'regional', 'financing', 'or', 'singular', 'bilateral', 'and', 'generalizable', 'financing', '(and', 'ii)', "'that", 'weird', "summer'"]
+Word: supreme, Count: 1
+Word: court, Count: 1
+Word: slap, Count: 1
+Word: on, Count: 1
+Word: the, Count: 4
+Word: wrist, Count: 1
+Word: for, Count: 1
+Word: judge, Count: 1
+Word: peinado, Count: 1
+Word: milei, Count: 1
+Word: against, Count: 1
+Word: politics, Count: 1
+Word: the, Count: 4
+Word: debate, Count: 1
+Word: :, Count: 1
+Word: the, Count: 4
+Word: re-signification, Count: 1
+Word: of, Count: 2
+Word: the, Count: 4
+Word: valley, Count: 1
+Word: of, Count: 2
+Word: cuelgamuros, Count: 1
+Word: fair, Count: 1
+Word: regional, Count: 1
+Word: financing, Count: 2
+Word: or, Count: 1
+Word: singular, Count: 1
+Word: bilateral, Count: 1
+Word: and, Count: 1
+Word: generalizable, Count: 1
+Word: financing, Count: 2
+Word: (and, Count: 1
+Word: ii), Count: 1
+Word: 'that, Count: 1
+Word: weird, Count: 1
+Word: summer', Count: 1
+Repeated Words: {'the': 4, 'of': 2, 'financing': 2}
+Repeated Words: {'the': 4, 'of': 2, 'financing': 2}
+| PASS |
+------------------------------------------------------------------------------
+Test Opinion                                                          | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/reports/pabot_results/3/output.xml
+
+14:37:10 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 49318 defined in env skipping Browser process start
+
+14:37:15 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 49318 defined in env skipping Browser process start
+
+14:37:21 [browserstack_sdk.__init__][INFO] - Handling session close
+
+14:37:21 [browserstack_sdk.__init__][INFO] - All done!

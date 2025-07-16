@@ -3,7 +3,12 @@ import requests
 
 class CustomLibrary:
     def download_file(self, url, filepath):
-        """Download a file from the specified URL to the given filepath."""
+        """Download a file from the specified URL to the given filepath.
+
+        Takes a list of titles.
+        Translates each title into the target language using the DeepL API.
+        Returns a list of translated titles."""
+
         response = requests.get(url, stream=True)
         response.raise_for_status()
         with open(filepath, 'wb') as file:
@@ -20,6 +25,11 @@ class CustomLibrary:
         :param api_url: DeepL API URL
         :param auth_key: DeepL API Auth Key
         :return: Translated text
+
+        Takes a list of translated titles.
+        Breaks titles into individual words.
+        Counts how often each word appears.
+        Returns a dictionary of words that appear more than once with their frequency.
         """
         headers = {
             "Authorization": f"DeepL-Auth-Key {auth_key}"

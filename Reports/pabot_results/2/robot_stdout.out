@@ -1,71 +1,113 @@
 
-00:13:58 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:35:13 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-00:13:59 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+14:35:13 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Test Opinion                                                                  
 ==============================================================================
 Verify Opinion Articles Workflow                                      
-00:13:59 [browserstack_sdk.__init__][INFO] - Completed setup!
-Titles: ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’']
-Contents: ['Los afectados por coronavirus persistente merecen la atención de una sanidad que dio lo mejor de sí misma durante la pandemia', 'El régimen de Daniel Ortega reforma la Constitución para eliminar la separación de poderes', 'Las ayudas a los afectados deben tener la potencia, agilidad y duración suficientes para compensar los ingresos perdidos. Y el PIB no puede ser la única medida', 'La posibilidad de que la propuesta del PSOE para reformar la Ley Fundamental salga adelante es remota en el actual clima político', 'Este proyecto explora el significado de ser joven en La Línea de la Concepción, localidad marcada por el estigma del desempleo y el tráfico de drogas']
-Image URLs: ['https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&width=414', 'https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&width=414&height=233&focal=2815%2C1060', 'https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&width=414', 'https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&width=414&height=414&smart=true']
+14:35:14 [browserstack_sdk.__init__][INFO] - Completed setup!
+Titles: ['Los aranceles de Trump ya se empiezan a sentir en el bolsillo: la inflación escala al 2,7% en junio en Estados Unidos', 'La Casa Blanca eleva su presión sobre Powell, a quien ya están buscando sustituto', 'La guerra del tomate: el presidente rompe un viejo tratado para golpear a México con más aranceles', 'Moscú avisa al presidente estadounidense de que sus mensajes contra Putin dan falsas esperanzas a Ucrania', 'Dos congresistas latinas presentan una ambiciosa propuesta bipartidista de reforma migratoria']
+Contents: ['Los economistas esperaban esta lectura como el primer reflejo real de la guerra comercial de Washington en los precios que pagan los consumidores', 'Las declaraciones de Marta Elena Feitó provocan una oleada de indignación y la desautorización del propio Díaz-Canel ', 'El guía alemán logra su propósito en\xa0el Nanga Parbat, en Pakistán, al quinto intento, en compañía de dos esquiadores extremos, quienes firman el primer descenso con tablas desde la misma cima', 'El político demócrata conversa con EL PAÍS sobre su estrategia para cambiar el rumbo del Estado', 'La Administración redobla su apuesta por la innovación con millonarios contratos ‘estratégicos’ del Pentágono a OpenAI, Google y xAI, la empresa de IA de Musk']
+Image URLs: ['https://imagenes.elpais.com/resizer/v2/EAML3435KFCHTBYZOHUKX2ILLU.JPG?auth=4e8d8652848d088b95b485b0cbf8c2d75078f74c08104d47c48c555b4c08bcec&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/ILX2TKNHMRDH3P4RFZPMHOBFUE.png?auth=1d42af55924255414f7a47e3be813255b5842653fcf9bf14018100d2ce4d59dd&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/VXRNSXC6OBASRKDASCVBDQ2JQQ.png?auth=eb5b22f1bef2d67a3c8c2832d06421a98d6d2aa81d6354f89989a837377ce6d3&width=414&height=233&focal=1204%2C764', 'https://imagenes.elpais.com/resizer/v2/LAWOTXU7C5EDHGNXEZITZ4MF6A.jpg?auth=2a7dca887c57c77da13e146196da97b4b18c88c0f680b9a026d699e99c59f0a7&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/6PA32NKC2RFOJK6YDXF5QXCKEA.jpg?auth=d6d04ce05a55a168f0190841fbc02045f039c0b44ee508ddb71e0bbd2ad0c76d&width=414&height=233&smart=true']
 Starting Image Download Process...
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&width=414
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/EAML3435KFCHTBYZOHUKX2ILLU.JPG?auth=4e8d8652848d088b95b485b0cbf8c2d75078f74c08104d47c48c555b4c08bcec&width=414&height=233&smart=true
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image1.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&width=414&height=233&smart=true
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/ILX2TKNHMRDH3P4RFZPMHOBFUE.png?auth=1d42af55924255414f7a47e3be813255b5842653fcf9bf14018100d2ce4d59dd&width=414&height=233&smart=true
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image2.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&width=414&height=233&focal=2815%2C1060
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/VXRNSXC6OBASRKDASCVBDQ2JQQ.png?auth=eb5b22f1bef2d67a3c8c2832d06421a98d6d2aa81d6354f89989a837377ce6d3&width=414&height=233&focal=1204%2C764
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image3.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&width=414
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/LAWOTXU7C5EDHGNXEZITZ4MF6A.jpg?auth=2a7dca887c57c77da13e146196da97b4b18c88c0f680b9a026d699e99c59f0a7&width=414&height=233&smart=true
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image4.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&width=414&height=414&smart=true
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/6PA32NKC2RFOJK6YDXF5QXCKEA.jpg?auth=d6d04ce05a55a168f0190841fbc02045f039c0b44ee508ddb71e0bbd2ad0c76d&width=414&height=233&smart=true
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image5.jpg
-Titles to Translate: ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’']
-Translating Title: Cinco años con covid
-Translated Title: Five years with covid
-Translating Title: Nicaragua, dictadura por ley
-Translated Title: Nicaragua, dictatorship by law
-Translating Title: El impacto económico real que tendrá la dana
-Translated Title: The real economic impact of the dana
-Translating Title: Blindaje constitucional de derechos: deseo y realidad
-Translated Title: Constitutional protection of rights: desire and reality
-Translating Title: ‘Bonanza (La Línea de la Concepción)’
-Translated Title: Bonanza (La Línea de la Concepción)'.
-Translated Titles: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
-Translated Titles: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
-Titles Received for Analysis: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
-All Words Extracted: ['five', 'years', 'with', 'covid', 'nicaragua', 'dictatorship', 'by', 'law', 'the', 'real', 'economic', 'impact', 'of', 'the', 'dana', 'constitutional', 'protection', 'of', 'rights:', 'desire', 'and', 'reality', 'bonanza', '(la', 'línea', 'de', 'la', "concepción)'"]
-Word: five, Count: 1
-Word: years, Count: 1
+Titles to Translate: ['Los aranceles de Trump ya se empiezan a sentir en el bolsillo: la inflación escala al 2,7% en junio en Estados Unidos', 'La Casa Blanca eleva su presión sobre Powell, a quien ya están buscando sustituto', 'La guerra del tomate: el presidente rompe un viejo tratado para golpear a México con más aranceles', 'Moscú avisa al presidente estadounidense de que sus mensajes contra Putin dan falsas esperanzas a Ucrania', 'Dos congresistas latinas presentan una ambiciosa propuesta bipartidista de reforma migratoria'] #Debugging Purpose
+Translating Title: Los aranceles de Trump ya se empiezan a sentir en el bolsillo: la inflación escala al 2,7% en junio en Estados Unidos
+Translated Title: Trump's tariffs are already starting to be felt in the pocketbook: inflation climbs to 2.7% in June in the U.S.
+Translating Title: La Casa Blanca eleva su presión sobre Powell, a quien ya están buscando sustituto
+Translated Title: The White House increases its pressure on Powell, who is already looking for a replacement.
+Translating Title: La guerra del tomate: el presidente rompe un viejo tratado para golpear a México con más aranceles
+Translated Title: The tomato war: President breaks old treaty to hit Mexico with more tariffs
+Translating Title: Moscú avisa al presidente estadounidense de que sus mensajes contra Putin dan falsas esperanzas a Ucrania
+Translated Title: Moscow warns U.S. president that his anti-Putin messages give false hope to Ukraine
+Translating Title: Dos congresistas latinas presentan una ambiciosa propuesta bipartidista de reforma migratoria
+Translated Title: Two Latina congresswomen present ambitious bipartisan immigration reform proposal
+Translated Titles: ["Trump's tariffs are already starting to be felt in the pocketbook: inflation climbs to 2.7% in June in the U.S.", 'The White House increases its pressure on Powell, who is already looking for a replacement.', 'The tomato war: President breaks old treaty to hit Mexico with more tariffs', 'Moscow warns U.S. president that his anti-Putin messages give false hope to Ukraine', 'Two Latina congresswomen present ambitious bipartisan immigration reform proposal']
+Translated Titles: ["Trump's tariffs are already starting to be felt in the pocketbook: inflation climbs to 2.7% in June in the U.S.", 'The White House increases its pressure on Powell, who is already looking for a replacement.', 'The tomato war: President breaks old treaty to hit Mexico with more tariffs', 'Moscow warns U.S. president that his anti-Putin messages give false hope to Ukraine', 'Two Latina congresswomen present ambitious bipartisan immigration reform proposal']
+Titles Received for Analysis: ["Trump's tariffs are already starting to be felt in the pocketbook: inflation climbs to 2.7% in June in the U.S.", 'The White House increases its pressure on Powell, who is already looking for a replacement.', 'The tomato war: President breaks old treaty to hit Mexico with more tariffs', 'Moscow warns U.S. president that his anti-Putin messages give false hope to Ukraine', 'Two Latina congresswomen present ambitious bipartisan immigration reform proposal']
+All Words Extracted: ["trump's", 'tariffs', 'are', 'already', 'starting', 'to', 'be', 'felt', 'in', 'the', 'pocketbook:', 'inflation', 'climbs', 'to', '2.7%', 'in', 'june', 'in', 'the', 'u.s', 'the', 'white', 'house', 'increases', 'its', 'pressure', 'on', 'powell', 'who', 'is', 'already', 'looking', 'for', 'a', 'replacement', 'the', 'tomato', 'war:', 'president', 'breaks', 'old', 'treaty', 'to', 'hit', 'mexico', 'with', 'more', 'tariffs', 'moscow', 'warns', 'u.s', 'president', 'that', 'his', 'anti-putin', 'messages', 'give', 'false', 'hope', 'to', 'ukraine', 'two', 'latina', 'congresswomen', 'present', 'ambitious', 'bipartisan', 'immigration', 'reform', 'proposal']
+Word: trump's, Count: 1
+Word: tariffs, Count: 2
+Word: are, Count: 1
+Word: already, Count: 2
+Word: starting, Count: 1
+Word: to, Count: 4
+Word: be, Count: 1
+Word: felt, Count: 1
+Word: in, Count: 3
+Word: the, Count: 4
+Word: pocketbook:, Count: 1
+Word: inflation, Count: 1
+Word: climbs, Count: 1
+Word: to, Count: 4
+Word: 2.7%, Count: 1
+Word: in, Count: 3
+Word: june, Count: 1
+Word: in, Count: 3
+Word: the, Count: 4
+Word: u.s, Count: 2
+Word: the, Count: 4
+Word: white, Count: 1
+Word: house, Count: 1
+Word: increases, Count: 1
+Word: its, Count: 1
+Word: pressure, Count: 1
+Word: on, Count: 1
+Word: powell, Count: 1
+Word: who, Count: 1
+Word: is, Count: 1
+Word: already, Count: 2
+Word: looking, Count: 1
+Word: for, Count: 1
+Word: a, Count: 1
+Word: replacement, Count: 1
+Word: the, Count: 4
+Word: tomato, Count: 1
+Word: war:, Count: 1
+Word: president, Count: 2
+Word: breaks, Count: 1
+Word: old, Count: 1
+Word: treaty, Count: 1
+Word: to, Count: 4
+Word: hit, Count: 1
+Word: mexico, Count: 1
 Word: with, Count: 1
-Word: covid, Count: 1
-Word: nicaragua, Count: 1
-Word: dictatorship, Count: 1
-Word: by, Count: 1
-Word: law, Count: 1
-Word: the, Count: 2
-Word: real, Count: 1
-Word: economic, Count: 1
-Word: impact, Count: 1
-Word: of, Count: 2
-Word: the, Count: 2
-Word: dana, Count: 1
-Word: constitutional, Count: 1
-Word: protection, Count: 1
-Word: of, Count: 2
-Word: rights:, Count: 1
-Word: desire, Count: 1
-Word: and, Count: 1
-Word: reality, Count: 1
-Word: bonanza, Count: 1
-Word: (la, Count: 1
-Word: línea, Count: 1
-Word: de, Count: 1
-Word: la, Count: 1
-Word: concepción)', Count: 1
-Repeated Words: {'the': 2, 'of': 2}
-Repeated Words: {'the': 2, 'of': 2}
+Word: more, Count: 1
+Word: tariffs, Count: 2
+Word: moscow, Count: 1
+Word: warns, Count: 1
+Word: u.s, Count: 2
+Word: president, Count: 2
+Word: that, Count: 1
+Word: his, Count: 1
+Word: anti-putin, Count: 1
+Word: messages, Count: 1
+Word: give, Count: 1
+Word: false, Count: 1
+Word: hope, Count: 1
+Word: to, Count: 4
+Word: ukraine, Count: 1
+Word: two, Count: 1
+Word: latina, Count: 1
+Word: congresswomen, Count: 1
+Word: present, Count: 1
+Word: ambitious, Count: 1
+Word: bipartisan, Count: 1
+Word: immigration, Count: 1
+Word: reform, Count: 1
+Word: proposal, Count: 1
+Repeated Words: {'tariffs': 2, 'already': 2, 'to': 4, 'in': 3, 'the': 4, 'u.s': 2, 'president': 2}
+Repeated Words: {'tariffs': 2, 'already': 2, 'to': 4, 'in': 3, 'the': 4, 'u.s': 2, 'president': 2}
 | PASS |
 ------------------------------------------------------------------------------
 Test Opinion                                                          | PASS |
@@ -73,10 +115,10 @@ Test Opinion                                                          | PASS |
 ==============================================================================
 Output:  /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/reports/pabot_results/2/output.xml
 
-00:15:19 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 55159 defined in env skipping Browser process start
+14:37:04 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 65416 defined in env skipping Browser process start
 
-00:15:24 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 55159 defined in env skipping Browser process start
+14:37:09 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 65416 defined in env skipping Browser process start
 
-00:15:30 [browserstack_sdk.__init__][INFO] - Handling session close
+14:37:14 [browserstack_sdk.__init__][INFO] - Handling session close
 
-00:15:30 [browserstack_sdk.__init__][INFO] - All done!
+14:37:14 [browserstack_sdk.__init__][INFO] - All done!

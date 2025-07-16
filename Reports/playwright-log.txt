@@ -1,5 +1,5 @@
-{"level":30,"time":"2024-12-30T17:40:39.797Z","pid":51845,"hostname":"Christophers-MacBook-Air.local","msg":"Listening on 62943"}
-(node:51845) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-07-15T13:44:22.632Z","pid":14484,"hostname":"Christophers-MacBook-Air.local","msg":"Listening on 53857"}
+(node:14484) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ================= Original suppressed error =================
 Error: Browser has been closed.
@@ -10,12 +10,12 @@ Error: Browser has been closed.
     at BaseServerInterceptingCall.maybePushNextMessage (/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
     at BaseServerInterceptingCall.handleEndEvent (/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
     at ServerHttp2Stream.<anonymous> (/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
-    at ServerHttp2Stream.emit (node:events:536:35)
+    at ServerHttp2Stream.emit (node:events:530:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2024-12-30T17:40:40.898Z","pid":51845,"hostname":"Christophers-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-30T17:40:40.899Z","pid":51845,"hostname":"Christophers-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-15T13:44:23.729Z","pid":14484,"hostname":"Christophers-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-15T13:44:23.729Z","pid":14484,"hostname":"Christophers-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:12202:15)
@@ -25,11 +25,11 @@ Error: Browser has been closed.
     at BaseServerInterceptingCall.maybePushNextMessage (/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:569:31)
     at BaseServerInterceptingCall.handleEndEvent (/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:609:14)
     at ServerHttp2Stream.<anonymous> (/Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
-    at ServerHttp2Stream.emit (node:events:536:35)
+    at ServerHttp2Stream.emit (node:events:530:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2024-12-30T17:40:40.909Z","pid":51845,"hostname":"Christophers-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-30T17:40:40.909Z","pid":51845,"hostname":"Christophers-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-30T17:40:40.952Z","pid":51845,"hostname":"Christophers-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2024-12-30T17:40:40.952Z","pid":51845,"hostname":"Christophers-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-15T13:44:23.740Z","pid":14484,"hostname":"Christophers-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-15T13:44:23.740Z","pid":14484,"hostname":"Christophers-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-07-15T13:44:23.783Z","pid":14484,"hostname":"Christophers-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-07-15T13:44:23.783Z","pid":14484,"hostname":"Christophers-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}

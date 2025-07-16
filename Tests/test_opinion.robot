@@ -7,6 +7,14 @@ Resource   ../Resources/keywords.robot
 Resource   ../Variables/variables.robot
 Resource   ../Resources/locators.robot
 
+#This test script validates the following scenarios:
+ #1. Ensures that the website's text is displayed in Spanish.
+ #2. Fetches the first five articles in the Opinion section.
+ #3. Prints the title and content of each article in Spanish.
+ #4. Downloads and saves the cover image of each article into the local machine.
+ #5. Translates and Prints the title of each article to English.
+ #6. From the translated headers, identifies any words that are repeated more than twice across all headers combined.
+
 *** Test Cases ***
 
 Verify Opinion Articles Workflow

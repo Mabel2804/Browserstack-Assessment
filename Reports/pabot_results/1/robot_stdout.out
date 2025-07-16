@@ -1,71 +1,79 @@
 
-00:13:58 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:35:13 [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 
-00:13:59 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+14:35:13 [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
 ==============================================================================
 Test Opinion                                                                  
 ==============================================================================
 Verify Opinion Articles Workflow                                      
-00:13:59 [browserstack_sdk.__init__][INFO] - Completed setup!
-Titles: ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’']
-Contents: ['Los afectados por coronavirus persistente merecen la atención de una sanidad que dio lo mejor de sí misma durante la pandemia', 'El régimen de Daniel Ortega reforma la Constitución para eliminar la separación de poderes', 'Las ayudas a los afectados deben tener la potencia, agilidad y duración suficientes para compensar los ingresos perdidos. Y el PIB no puede ser la única medida', 'La posibilidad de que la propuesta del PSOE para reformar la Ley Fundamental salga adelante es remota en el actual clima político', 'Este proyecto explora el significado de ser joven en La Línea de la Concepción, localidad marcada por el estigma del desempleo y el tráfico de drogas']
-Image URLs: ['https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&width=414', 'https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&width=414&height=233&focal=2815%2C1060', 'https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&width=414', 'https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&width=414&height=414&smart=true']
+14:35:14 [browserstack_sdk.__init__][INFO] - Completed setup!
+Titles: ['Varapalo supremo al juez Peinado', 'Milei contra la política', 'El debate | La resignificación del Valle de Cuelgamuros', '¿Financiación autonómica justa o financiación singular, bilateral y generalizable? (y II)', '‘Aquel verano raro’']
+Contents: ['El alto tribunal desestima de forma contundente el intento de imputar sin fundamento al ministro de Justicia, Félix Bolaños', 'La rebelión de sus senadores afines y de la vicepresidenta Villarruel es una muestra de la incapacidad del presidente argentino para dialogar', 'El acuerdo sobre uno de los principales monumentos del franquismo ha suscitado críticas tanto desde quienes creen que el Gobierno ha cedido ante la Conferencia Episcopal y el Vaticano como desde quienes consideran que el pacto afecta a un lugar de culto', 'Lo inquietante en el proyecto de nuevo sistema es sustituir los tributos de los ciudadanos al Estado por la “aportación” de la Generalitat y la denominada, confusamente, bilateralidad', 'Este proyecto fotográfico muestra diferentes momentos de la vida cotidiana en Barcelona capturados durante el verano de 2021, mientras estábamos inmersos en la quinta ola de la covid-19. Pese a que el aumento de la población vacunada permitió una reapertura parcial al turismo todavía se apreciaban las medidas requeridas para controlar la pandemia, como el uso de la mascarilla en espacios públicos o el distanciamiento social. Esta serie se enfoca en las huellas que dejó la pandemia, en esos instantes en los que se percibe la soledad en las calles, la calma de los espacios prácticamente vacíos y el anhelo de un ayer que todavía no llegaba']
+Image URLs: ['https://imagenes.elpais.com/resizer/v2/OZAMN2HPWBF73IUQTJEWEZGEQ4.jpg?auth=13deb537ba298e1d4816dfc239032bf9bfb0f33fa5fae30a30e728ba0a048f24&width=414', 'https://imagenes.elpais.com/resizer/v2/6PAQDIH5GVGULCD7ML2WVLDIXE.jpg?auth=e2f082ea841fc25bb521139af480688bd849ef5583bff32d43854099813bf3f0&width=414&height=233&focal=534%2C549', 'https://imagenes.elpais.com/resizer/v2/ZA4F5KFSA5HVHJV5ESWKD3HKCI.jpg?auth=0faa71096801505e0c08b02bdc58e0442aca2d4d12cf44f625f57484c080dbd9&width=414&height=233&smart=true', 'https://imagenes.elpais.com/resizer/v2/QFZCUSM44FAUBPW5EUUZTWFUBU.jpg?auth=0ba8cbbcb67bf0a4c7f95bc628bb171cd1ecfad4e4e36037d105ca4984ca967f&width=414', 'https://imagenes.elpais.com/resizer/v2/5ERWIQZC5BEDZIK3KYW7MMW5JQ.jpg?auth=71a7e96989bcbcf2bed197ab006daed0c3256d409f6bdc9372439534f515c229&width=414&height=414&smart=true']
 Starting Image Download Process...
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/PAMN3NGXHRCYFJG3474HVIT5QM.jpg?auth=bc26bcc858f40bb27428d6850fe35002c0c1b8a281ffb51c66958b8108f14f55&width=414
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/OZAMN2HPWBF73IUQTJEWEZGEQ4.jpg?auth=13deb537ba298e1d4816dfc239032bf9bfb0f33fa5fae30a30e728ba0a048f24&width=414
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image1.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/6VMNK7E5SZEOJMPNI2YGTOQTUY.jpg?auth=971ba5c70878cf7934b3bfe65319037294c446b2535e13e1957c285f4e9b80df&width=414&height=233&smart=true
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/6PAQDIH5GVGULCD7ML2WVLDIXE.jpg?auth=e2f082ea841fc25bb521139af480688bd849ef5583bff32d43854099813bf3f0&width=414&height=233&focal=534%2C549
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image2.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/QCEVKQH27VGW3CX4OBPEIHJVLI.jpg?auth=3b5962b563557a33ceb883a49854112821ba1bf16865aeb0ebea1bba078c08c9&width=414&height=233&focal=2815%2C1060
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/ZA4F5KFSA5HVHJV5ESWKD3HKCI.jpg?auth=0faa71096801505e0c08b02bdc58e0442aca2d4d12cf44f625f57484c080dbd9&width=414&height=233&smart=true
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image3.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/QH4INNDNFVB5ZNB24LDT5YKDXQ.jpg?auth=c50444a2ec5fb247d229d85b2d78e0566f19cfdb828d9b565d612189731d847b&width=414
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/QFZCUSM44FAUBPW5EUUZTWFUBU.jpg?auth=0ba8cbbcb67bf0a4c7f95bc628bb171cd1ecfad4e4e36037d105ca4984ca967f&width=414
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image4.jpg
-Processing Image URL: https://imagenes.elpais.com/resizer/v2/VFVHEGMLJJCMRG4DXP3MMUV3PY.jpg?auth=00b243b5154c9601ad7d7d086eed409dc10fe78c725025bd70495f941ad7538f&width=414&height=414&smart=true
+Processing Image URL: https://imagenes.elpais.com/resizer/v2/5ERWIQZC5BEDZIK3KYW7MMW5JQ.jpg?auth=71a7e96989bcbcf2bed197ab006daed0c3256d409f6bdc9372439534f515c229&width=414&height=414&smart=true
 Downloaded Image to: /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/Downloads/Image5.jpg
-Titles to Translate: ['Cinco años con covid', 'Nicaragua, dictadura por ley', 'El impacto económico real que tendrá la dana', 'Blindaje constitucional de derechos: deseo y realidad', '‘Bonanza (La Línea de la Concepción)’']
-Translating Title: Cinco años con covid
-Translated Title: Five years with covid
-Translating Title: Nicaragua, dictadura por ley
-Translated Title: Nicaragua, dictatorship by law
-Translating Title: El impacto económico real que tendrá la dana
-Translated Title: The real economic impact of the dana
-Translating Title: Blindaje constitucional de derechos: deseo y realidad
-Translated Title: Constitutional protection of rights: desire and reality
-Translating Title: ‘Bonanza (La Línea de la Concepción)’
-Translated Title: Bonanza (La Línea de la Concepción)'.
-Translated Titles: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
-Translated Titles: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
-Titles Received for Analysis: ['Five years with covid', 'Nicaragua, dictatorship by law', 'The real economic impact of the dana', 'Constitutional protection of rights: desire and reality', "Bonanza (La Línea de la Concepción)'."]
-All Words Extracted: ['five', 'years', 'with', 'covid', 'nicaragua', 'dictatorship', 'by', 'law', 'the', 'real', 'economic', 'impact', 'of', 'the', 'dana', 'constitutional', 'protection', 'of', 'rights:', 'desire', 'and', 'reality', 'bonanza', '(la', 'línea', 'de', 'la', "concepción)'"]
-Word: five, Count: 1
-Word: years, Count: 1
-Word: with, Count: 1
-Word: covid, Count: 1
-Word: nicaragua, Count: 1
-Word: dictatorship, Count: 1
-Word: by, Count: 1
-Word: law, Count: 1
-Word: the, Count: 2
-Word: real, Count: 1
-Word: economic, Count: 1
-Word: impact, Count: 1
+Titles to Translate: ['Varapalo supremo al juez Peinado', 'Milei contra la política', 'El debate | La resignificación del Valle de Cuelgamuros', '¿Financiación autonómica justa o financiación singular, bilateral y generalizable? (y II)', '‘Aquel verano raro’'] #Debugging Purpose
+Translating Title: Varapalo supremo al juez Peinado
+Translated Title: Supreme court slap on the wrist for Judge Peinado
+Translating Title: Milei contra la política
+Translated Title: Milei against politics
+Translating Title: El debate | La resignificación del Valle de Cuelgamuros
+Translated Title: The debate : The re-signification of the Valley of Cuelgamuros
+Translating Title: ¿Financiación autonómica justa o financiación singular, bilateral y generalizable? (y II)
+Translated Title: Fair regional financing or singular, bilateral and generalizable financing (and II).
+Translating Title: ‘Aquel verano raro’
+Translated Title: 'That weird summer'.
+Translated Titles: ['Supreme court slap on the wrist for Judge Peinado', 'Milei against politics', 'The debate : The re-signification of the Valley of Cuelgamuros', 'Fair regional financing or singular, bilateral and generalizable financing (and II).', "'That weird summer'."]
+Translated Titles: ['Supreme court slap on the wrist for Judge Peinado', 'Milei against politics', 'The debate : The re-signification of the Valley of Cuelgamuros', 'Fair regional financing or singular, bilateral and generalizable financing (and II).', "'That weird summer'."]
+Titles Received for Analysis: ['Supreme court slap on the wrist for Judge Peinado', 'Milei against politics', 'The debate : The re-signification of the Valley of Cuelgamuros', 'Fair regional financing or singular, bilateral and generalizable financing (and II).', "'That weird summer'."]
+All Words Extracted: ['supreme', 'court', 'slap', 'on', 'the', 'wrist', 'for', 'judge', 'peinado', 'milei', 'against', 'politics', 'the', 'debate', ':', 'the', 're-signification', 'of', 'the', 'valley', 'of', 'cuelgamuros', 'fair', 'regional', 'financing', 'or', 'singular', 'bilateral', 'and', 'generalizable', 'financing', '(and', 'ii)', "'that", 'weird', "summer'"]
+Word: supreme, Count: 1
+Word: court, Count: 1
+Word: slap, Count: 1
+Word: on, Count: 1
+Word: the, Count: 4
+Word: wrist, Count: 1
+Word: for, Count: 1
+Word: judge, Count: 1
+Word: peinado, Count: 1
+Word: milei, Count: 1
+Word: against, Count: 1
+Word: politics, Count: 1
+Word: the, Count: 4
+Word: debate, Count: 1
+Word: :, Count: 1
+Word: the, Count: 4
+Word: re-signification, Count: 1
 Word: of, Count: 2
-Word: the, Count: 2
-Word: dana, Count: 1
-Word: constitutional, Count: 1
-Word: protection, Count: 1
+Word: the, Count: 4
+Word: valley, Count: 1
 Word: of, Count: 2
-Word: rights:, Count: 1
-Word: desire, Count: 1
+Word: cuelgamuros, Count: 1
+Word: fair, Count: 1
+Word: regional, Count: 1
+Word: financing, Count: 2
+Word: or, Count: 1
+Word: singular, Count: 1
+Word: bilateral, Count: 1
 Word: and, Count: 1
-Word: reality, Count: 1
-Word: bonanza, Count: 1
-Word: (la, Count: 1
-Word: línea, Count: 1
-Word: de, Count: 1
-Word: la, Count: 1
-Word: concepción)', Count: 1
-Repeated Words: {'the': 2, 'of': 2}
-Repeated Words: {'the': 2, 'of': 2}
+Word: generalizable, Count: 1
+Word: financing, Count: 2
+Word: (and, Count: 1
+Word: ii), Count: 1
+Word: 'that, Count: 1
+Word: weird, Count: 1
+Word: summer', Count: 1
+Repeated Words: {'the': 4, 'of': 2, 'financing': 2}
+Repeated Words: {'the': 4, 'of': 2, 'financing': 2}
 | PASS |
 ------------------------------------------------------------------------------
 Test Opinion                                                          | PASS |
@@ -73,10 +81,10 @@ Test Opinion                                                          | PASS |
 ==============================================================================
 Output:  /Users/christopherthomas/PycharmProjects/PythonProject/BrowserstackProject/reports/pabot_results/1/output.xml
 
-00:15:11 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 54932 defined in env skipping Browser process start
+14:37:03 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 65394 defined in env skipping Browser process start
 
-00:15:16 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 54932 defined in env skipping Browser process start
+14:37:08 [RobotFramework][INFO] - ROBOT_FRAMEWORK_BROWSER_NODE_PORT 65394 defined in env skipping Browser process start
 
-00:15:21 [browserstack_sdk.__init__][INFO] - Handling session close
+14:37:13 [browserstack_sdk.__init__][INFO] - Handling session close
 
-00:15:21 [browserstack_sdk.__init__][INFO] - All done!
+14:37:13 [browserstack_sdk.__init__][INFO] - All done!
